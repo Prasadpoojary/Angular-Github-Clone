@@ -1,0 +1,102 @@
+
+.container{
+    position: absolute;
+    top:35%;
+    left:50%;
+    padding:30px;
+    border-radius: 5px;
+    width:370px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    transform: translate(-50%,-20%);
+    background: white;
+}
+
+.container h1
+{
+    font-size: 25px;
+    color:#000155;
+}
+.container .wrapper{
+    position: relative;
+    height:60px;
+   
+}
+
+.wrapper label{
+    position: absolute;
+    top:5%;
+    font-size: 13px;
+    left:16%;
+    color:#acafe2e7;
+}
+.container form{
+    margin-top: 30px;
+}
+
+.wrapper input,.wrapper button{
+    position: absolute;
+    top:39%;
+    transition: .3s ease-in-out;
+    left:50%;
+    transform: translateX(-50%);
+    width:70%;
+    padding:5px 10px;
+    border:none;
+    outline:none;
+    border-bottom: 1px solid #010488;
+}
+.wrapper input:focus{
+    border-bottom: 1px solid #0a018546;
+}
+.wrapper input:focus ~ label{
+    color:#5a0000;
+}
+
+
+.wrapper .btn-load{
+    background:#110050;
+    border:1px solid transparent;
+    color:white;
+    border-radius: 2px;
+    cursor: pointer;
+    width:80px;
+    
+    
+    height:35px;
+    transition: .3s ease-in-out;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-submit
+{
+    width:55%;
+}
+
+.wrapper .btn-load:hover{
+    background:#d6d6fa;
+    color:#110050;
+    border:1px solid #151c8b;
+    
+}
+
+
+
+
+
+@media screen and (max-width:400px) {
+   
+ 
+    .container
+    {
+        width:270px;
+    }
+ 
+    .wrapper-submit{
+        width:65%;
+    }
+ 
+ 
+ }

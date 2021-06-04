@@ -1,0 +1,31 @@
+<header>
+    <h1><i class="fa fa-github" aria-hidden="true"></i> GitHub <i class="fa fa-clone"></i></h1>
+
+    <ul>
+        <a *ngIf='email' [routerLink]="['']" routerLinkActive='active' [routerLinkActiveOptions]="{ exact: true }">
+            
+            <li>{{email}}</li>
+            <div></div>
+        </a>
+        <a *ngIf='!email' [routerLink]="['']" routerLinkActive='active' [routerLinkActiveOptions]="{ exact: true }">
+            
+            <li>Home</li>
+            <div></div>
+        </a>
+        
+        <a *ngIf="!email" [routerLink]="['login']" routerLinkActive='active'>
+            <li>Login</li>
+            <div></div>
+        </a>
+        <a *ngIf="email" (click)='handleLogout()' href="">
+            <li>Logout</li>
+            <div></div>
+        </a>
+        <a *ngIf="!email" [routerLink]="['signup']" routerLinkActive='active'>
+            <li>SignUp</li>
+            <div></div>
+        </a>
+    </ul>
+    
+</header>
+<app-message></app-message>

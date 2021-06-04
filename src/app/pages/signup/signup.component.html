@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="container">
+        <h1>Welcome</h1>
+        <form (ngSubmit)='handleSignUp(f)' #f='ngForm' method="post">
+            <div class="wrapper">
+                <label for="username">User Name</label>
+                <input id="username" ngModel name="username"/>
+            </div>
+           
+            <div class="wrapper">
+                <label for="password">Password</label>
+                <input type="password" id="password" ngModel name="password"/>
+            </div>
+            
+            <div class="wrapper wrapper-submit">
+                <button type="submit" class="btn-load">Sign Up</button>
+            </div>
+        </form>
+    </div>
+</div>
+<script>
+   
+</script>

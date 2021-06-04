@@ -1,0 +1,145 @@
+.card
+{
+    min-width:300px;
+    max-width: 450px;
+    width:50vw;
+    height:250px;
+    margin-top: 50px;
+    border-radius:4px;
+    background:#fff;
+    
+}
+.profile
+{
+    text-align: center;
+    height:80px;
+}
+
+.profile img
+{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    border:4px solid white;
+}
+.name
+{
+    text-align: center;
+    color:#2a0397;
+}
+
+.name h1{
+    font-size: 1.8em;
+}
+
+.other
+{
+    text-align: center;
+    margin-top: 8px;
+}
+
+.email
+{
+    color:#666161;
+    margin:6px;
+}
+
+.url
+{
+    color:#000000;
+    font-weight: 500;
+}
+
+.social
+{
+    color:#000;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.social .data
+{
+    font-weight: 500;
+}
+
+.bio
+{
+    font-size: 12px;
+    padding:0px 20px;
+    color:#666161;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+@media screen and (max-width:400px) {
+
+.card
+{
+    min-width:200px;
+    max-width: 450px;
+    width:90%;
+    height:250px;
+    margin-top: 50px;
+    border-radius:4px;
+    background:#fff;
+}
+.profile
+{
+    text-align: center;
+    height:75px;
+}
+
+.profile img
+{
+    width:120px;
+    height:120px;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    border:4px solid white;
+}
+.name
+{
+    text-align: center;
+    color:#2a0397;
+}
+
+.name h1{
+    font-size: 1.8em;
+}
+
+.other
+{
+    text-align: center;
+    margin-top: 8px;
+}
+
+.email
+{
+    color:#666161;
+    margin:6px;
+}
+
+.url
+{
+    color:#000000;
+    font-weight: 500;
+}
+
+.social
+{
+    color:#000;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.social .data
+{
+    font-weight: 500;
+}
+
+
+ 
+ }

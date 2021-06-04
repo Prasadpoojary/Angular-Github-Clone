@@ -1,0 +1,58 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+body
+{
+  
+    background:#0e001b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+
+
+
+.btn-load div
+{
+    width: 7px;
+    height:7px;
+    margin: 4px;
+   border-radius: 50%;
+    background: #ffffff;
+}
+
+.btn-load-anim div
+{
+    animation: load 1s ease-in-out infinite;
+}
+
+.btn-load-anim div:nth-child(1)
+{
+    animation-delay: .2s;
+}
+.btn-load-anim div:nth-child(2)
+{
+    animation-delay: .4s;
+}
+.btn-load-anim div:nth-child(3)
+{
+    animation-delay: .6s;
+}
+
+
+
+@keyframes load {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+    
+}

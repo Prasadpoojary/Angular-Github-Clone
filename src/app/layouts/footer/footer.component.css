@@ -1,0 +1,29 @@
+footer
+{
+color:#cdd4fd;
+position: fixed;
+bottom:0px;
+padding:20px 0px;
+font-size: 14px;
+width:100vw;
+text-align: center;
+background:#000000;
+}
+
+footer span
+{
+    color:#727272;
+}
+
+
+
+
+
+@media screen and (max-width:400px) {
+    footer
+    {
+        padding:7px 0px;
+        font-size: 10px;
+    }
+ 
+ }

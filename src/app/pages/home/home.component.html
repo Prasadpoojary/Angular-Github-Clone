@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="main">
+         <form (ngSubmit)="search()">
+             <div class="searchBar">
+                 <input type="text" placeholder="GitHub Username" [(ngModel)]="username" name="username">
+                 <button type="submit">Search</button>
+             </div>
+         </form>
+    </div>
+    <div class="biSection">
+        <app-card [userResp]='responseData'></app-card>
+        <app-repo [repoUrl]='responseData?.repos_url'></app-repo>
+    </div>
+ </div>

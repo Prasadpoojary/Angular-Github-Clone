@@ -1,0 +1,18 @@
+
+h1{
+    color:white;
+    font-size: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 span{
+    font-family: 'Times New Roman', Times, serif;
+    color:#0e001b;
+    text-shadow: 10px 0px 0px #2e0950;
+}
+
+
+@media screen and (max-width:400px) {
+    body h1{
+        font-size:60px;
+    }
+}

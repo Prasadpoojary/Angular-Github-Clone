@@ -1,0 +1,22 @@
+<div class="card" *ngIf='userResp'>
+    <div class="profile">
+        <img src="{{userResp.avatar_url}}" alt="Profile Pic">
+    </div>
+    <div class="name">
+        <h1>{{userResp.name}}</h1>
+    </div>
+    <div class="social">
+        <span>Followers : </span>
+        <span class="data">{{userResp.followers}}</span>,
+        <span>Following : </span>
+        <span class="data">{{userResp.following}}</span>
+    </div>
+    <div class="other">
+       
+        <p class="email">{{userResp.company}}</p>
+        <p class="bio">{{userResp.bio}}</p>
+        <p class="url">{{userResp.location}}</p>
+        
+    </div>
+   
+</div>

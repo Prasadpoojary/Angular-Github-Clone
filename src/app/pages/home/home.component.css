@@ -1,0 +1,78 @@
+
+.main
+{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.searchBar input
+{
+    width:230px;
+    height:35px;
+    border:none;
+    outline:none;
+    border-radius: 20px 0px 0px 20px;
+    padding:0px 20px;
+    background: transparent;
+    border:2px solid white;
+    color:#fff;
+    text-align:center;
+}
+
+.searchBar input::placeholder
+{
+    color:#d7d6ff7a;
+}
+.searchBar button
+{
+    width:60px;
+    height:35px;
+    margin-left: -11px;
+    border:none;
+    outline:none;
+    border-radius: 0px 20px 20px 0px;
+    background:#ffffff;
+    color:#0e001b;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+.biSection
+{
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    width:100vw;
+    margin-top:50px;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:400px) {
+
+    
+  
+.main
+{
+    text-align: center;
+    margin-top: 45px;
+}
+
+.searchBar input
+{
+    max-width:230px;
+    min-width: 150px;
+    width:80vw;
+  
+}
+
+
+
+ }

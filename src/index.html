@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <base href="/">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+  <app-root></app-root>
+   <script>
+      
+        $(document).ready(function(){
+        
+          $('.active div').css('transition','none');
+          $('.active div').width($('.active li').width());
+          $('.active div').css('transition','none');
+          $('header ul a').hover(function(){
+             $('.active div').css('transition','.5s ease-in-out');    
+ 
+             $('.active div').width(0);  
+             $(this).children('div').width($(this).children('li').width());  
+          });
+          $('header ul a').on('mouseleave',function(){
+             $('.active div').css('transition','.5s ease-in-out');    
+             $('header ul a div').width(0);
+             $('.active div').width($('.active li').width());  
+          });
+
+ 
+       
+       });
+     
+      
+    </script>
+</body>
+</html>

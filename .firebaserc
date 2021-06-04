@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "githubclone-fc0de": {
+      "hosting": {
+        "github-clone": [
+          "githubclone-fc0de"
+        ]
+      }
+    }
+  }
+}

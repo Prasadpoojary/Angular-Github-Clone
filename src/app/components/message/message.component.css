@@ -1,0 +1,46 @@
+
+.message{
+    position:absolute;
+    top:20px;
+    right:40px;
+    display:flex;
+    height:45px;
+    justify-content: space-between;
+    align-items: center;
+    padding:7px 20px;
+    color:#ffffff;
+    background: rgb(121, 0, 46);
+    min-width: 200px;
+    box-shadow: -2px 2px 13px 2px #000000;
+    transition: .5s ease-in-out;
+
+}
+
+.message div
+{
+    margin-right: 4px;
+    padding:0px 20px;
+    text-align: center;
+    margin-bottom: 5px;    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.message button
+{
+    outline:none;
+    border:none;
+    color:#d86a6a;
+    background: transparent;
+    cursor:pointer;
+    font-size: 18px;
+    line-height: 100%;
+}
+
+@keyframes animsg {
+    from{
+        top: 0;
+    }
+    to{
+        top: 20px;
+    }
+}

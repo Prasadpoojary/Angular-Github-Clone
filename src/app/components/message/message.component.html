@@ -1,0 +1,6 @@
+<div class="message" *ngIf="error" style="animation:animsg 0.5s ease-in-out 1;">
+    <div>
+        <p class="msg">{{error}}</p>
+    </div>
+    <button (click)="closeMessage()" class="cls-msg"><fa-icon [icon]="faTimes"></fa-icon></button>
+</div>
